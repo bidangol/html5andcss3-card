@@ -1,0 +1,70 @@
+.imageTable {
+  background-color: hsla(128, 100%, 50%, 0.144);
+  
+}
+
+.imageCol {
+  background-color: hsla(128, 100%, 50%, 0.144);
+  
+}
+
+mark.red {
+  background-color: red;
+}
+
+mark.lime {
+  background-color: lime;
+}
+
+centertext {
+  text-align: center;
+}
+
+.spaceleftbook{
+  display:inline-block;width:10;
+}
+table {
+  border-collapse: collapse;
+  background-color: hsla(128, 100%, 50%, 0.144);
+}
+  body {
+    background-image: url("https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/RedDeathPng.png");*/
+    background-size: cover;
+    background-color: #900C20;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    /*background-image: url("https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/RedDeathPng.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+table {
+  color:blue
+}
+
+p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin: 4px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px 10px 5px 10;
+  filter: drop-shadow(0px 0px 3px rgba(74, 165, 247, 0, 9));
+}
+#video1 {
+  padding: 5px;
+  margin: 5px;
+  border-color: greenyellow;
+}
+#video2 {
+  padding: 5px;
+  margin: 5px;
+  background-color: aquamarine;
+}

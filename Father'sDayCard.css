@@ -1,0 +1,7 @@
+body {
+  background-image: url("https://github.com/bidangol/HTML5/blob/master/image/SummerBackground.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
