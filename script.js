@@ -24,11 +24,13 @@ function add() {
   var name = document.getElementById("firstName").value;
   var middle = document.getElementById("midName").value;
   var position = document.getElementById("lastName").value;
-  //var gender = document.getElementById("gender").value;
+  var type = document.getElementById("type").value;
   anotherCard.getElementsByTagName("h4")[0].textContent = name;
   anotherCard.getElementsByTagName("h3")[0].textContent = middle;
   anotherCard.getElementsByTagName("p")[0].textContent = position;
-
+  if (type === "G") {
+    anotherCard.getElementsByTagName("img")[0].src = "https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/girl.png";
+  }
   document.getElementById("content").appendChild(anotherCard);
 
 }
